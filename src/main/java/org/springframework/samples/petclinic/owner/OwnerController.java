@@ -43,7 +43,7 @@ class OwnerController {
 
 	private final OwnerRepository owners;
 
-	private VisitRepository visit;
+	private VisitRepository visits;
 
 	public OwnerController(OwnerRepository clinicService, VisitRepository visits) {
 		this.owners = clinicService;
